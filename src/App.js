@@ -9,7 +9,7 @@ const App=()=> {
   const [query, setQuery]=useState('');
   const [error, setError]=useState('');
 
-  const API_KEY = '35089a1dae2dced4b2d124c0df7bb55f' 
+  const API_KEY = 'your API key' 
   useEffect(() =>{
     if(query==='') return;
     const fetchWeather = async() => {
