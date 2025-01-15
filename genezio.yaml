@@ -1,0 +1,12 @@
+frontend:
+    path: .
+    publish: build
+    scripts:
+        build:
+            - npm run build
+        deploy:
+            - npm install
+    subdomain: weather-app
+name: weather-app
+region: us-east-1
+yamlVersion: 2
